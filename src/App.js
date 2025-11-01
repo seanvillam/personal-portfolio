@@ -70,7 +70,6 @@ function About () {
     <section style={{ padding: 20, maxWidth: 980, margin: '0 auto' }}>
       <h2>About Me</h2>
       <div style={{ display: 'flex', gap: 20, alignItems: 'center', marginTop: 12 }}>
-        <img src='/images/headshot-placeholder.png' alt='Headshot' style={{ width: 140, height: 140, objectFit: 'cover', borderRadius: 12, background: '#f3f4f6' }} />
         <div>
           <p style={{ marginTop: 0 }}>Sean Villamonte</p>
           <p>I am an aspiring web developer and I enjoy turning ideas into accessible, performant interfaces.</p>
