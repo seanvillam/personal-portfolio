@@ -15,7 +15,7 @@ const styles = {
 function Logo () {
   return (
     <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-      <img src='personal-portfolio/images/logo.png' alt='Logo' style={{ width: '15%', height: '15%'}}/>
+      <img src='${process.env.PUBLIC_URL}/images/logo.png' alt='Logo' style={{ width: '15%', height: '15%'}}/>
     </div>
   )
 }
@@ -82,7 +82,7 @@ function Projects () {
   const projectList = [
     {
       title: 'Portfolio Website',
-      img: 'personal-portfolio/images/portfolio.png',
+      img: '${process.env.PUBLIC_URL}/images/portfolio.png',
       role: 'Front-End Developer',
       outcome: 'Developed a personal portfolio website using React to showcase skills.',
     }
