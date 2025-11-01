@@ -15,7 +15,7 @@ const styles = {
 function Logo () {
   return (
     <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-      <img src='/images/logo.png' alt='Logo' style={{ width: '15%', height: '15%'}}/>
+      <img src='personal-portfolio/images/logo.png' alt='Logo' style={{ width: '15%', height: '15%'}}/>
     </div>
   )
 }
@@ -46,7 +46,6 @@ function Nav ({currentPage, setPage}) {
             {label}
           </button>
         ))}
-        <a href='/' onClick={(e) => { e.preventDefault(); setPage('Home') }} style={{ marginLeft: 8, textDecoration: 'none', color: '#6b7280' }}>Preview</a>
       </div>
     </nav>
   )
@@ -83,7 +82,7 @@ function Projects () {
   const projectList = [
     {
       title: 'Portfolio Website',
-      img: '/images/portfolio.png',
+      img: 'personal-portfolio/images/portfolio.png',
       role: 'Front-End Developer',
       outcome: 'Developed a personal portfolio website using React to showcase skills.',
     }
